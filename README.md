@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+<h1 align="center"> Welcome to My-Portfolio 🔥 </h1> 
+<h3 align="center"> A Complete Customizable Elegant Personal Portfolio Website and is fully responsive <br /> built with react.js lets you display your works and Professional skills </h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"> 
+    
 
-## Available Scripts
+  </a> -->
+</p>
 
-In the project directory, you can run:
+## Sections 📚
 
-### `npm start`
+⚡️ About me <br>
+⚡️ Skills <br>
+⚡️ Projects <br>
+⚡️ Contact me <br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features ✨
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🔥 Completely Customizable <br>
+🔥 Minimal UI + Reveal Animations <br>
+🔥 Styled with Bootstrap v5 + Custom CSS <br>
+🔥 Fully Responsive <br>
+🔥 Reuseable React Components <br>
 
-### `npm test`
+## Technologies used 🛠️
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[✔️React](https://reactjs.org/) <br>
+[✔️react-reveal](https://www.react-reveal.com/) <br>
+[✔️Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) <br>
+[✔️react-tilt](https://www.npmjs.com/package/react-tilt) <br>
+[✔️iconify](https://iconify.design/) <br>
+[✔️lottie files](https://lottiefiles.com/blog/working-with-lottie/how-to-use-lottie-in-react-app) <br>
+[✔️react-social-icons](https://www.npmjs.com/package/react-social-icons) <br>
+[✔️react-tilt](https://www.npmjs.com/package/react-tilt) <br>
+[✔️react-router-dom](https://reactrouter.com/web/guides/quick-start) <br>
 
-### `npm run build`
+## Customize it to make your own portfolio ✏️
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **_Step 1_** <br>
+  Fork this repo! <br>
+  Clone this repo to your local machine. <br>
+  download required dependencies by executeing following command
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```python
+    npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You can check it using `npm start`, it will open the website locally on your browser.
 
-### `npm run eject`
+- **_Step 2_**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You will find `src/portfolio.js` file which contains the complete information about the user. The file looks something like below:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```python
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+//I Would Highly Recommend Customize The Theme According To Your Taste.
+export const globalStyles = {
+    "--grad": "linear-gradient(315deg, #48a9fe 0%, #734ae8 74%)",
+    "--txtcolor": "#272341",
+    "--p_color": "#0499f2"
+}
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+// Navigation Bar Name
+export const navbar_name = " " //Your Name
 
-## Learn More
+// Main Page
+export const main = {
+    name: " ", //Your Name
+    doamin: " ", //Your Domain
+    resume: "" //Resume Link
+}
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+...
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+You can change the theme , personal information , social media , skills, resume etc. in `src/portfolio.js` to directly reflect them in portfolio website.
 
-### Code Splitting
+## Deployment 📦
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Once you are done with your setup and have successfully completed all steps above, you need to put your website online!
+- I highly recommend using [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to achieve this the easiest way.
 
-### Analyzing the Bundle Size
+## Show your support 🙌
+Give a ⭐️ if this project helped you! 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## References 👏🏻
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Some Design Ideas are taken from [simplefolio Project](https://github.com/cobidev/simplefolio) and [masterPortfolio Project](https://github.com/ashutosh1919/masterPortfolio).
