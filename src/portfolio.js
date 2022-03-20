@@ -173,7 +173,7 @@ export const details = [
     feature: `User Buy Clothes,
     Buy Sports Shoes,
     Futsal Shoes Online.`,
-    tech: `Tech Stack: HTML | CSS | DOM | LocalStorage .`,
+    tech: `Tech Stack: HTML | CSS |JavaScript .`,
     img: "https://miro.medium.com/max/1400/1*tds0Sy4f9sFynFElZV5DnA.jpeg",
     github: "https://github.com/salakhas/Nike",
     link:"https://nike-five.vercel.app/"
